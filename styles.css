@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100vw;
+    width: 100vw;
+    border: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Bagerich;
+    src: url(Bagerich.ttf) format(truetype)
+}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf) format(truetype)
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 24px;
+}
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: #BF9649;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.08px;
+    height: 20px;
+}
+h1{
+    font-family: Bagerich;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    color: #BF9649;
+
+}
+h2{
+    color: #BF9649;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123%;
+    font-family: Bagerich;
+    text-align: center;
+
+}
+em{
+    color: #BF9649;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+.copy{
+    color: #261E17;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin: 25px 102px;
+    width: 574px;
+    height: 108px;
+    flex-shrink: 0; 
+}
+.background{
+    width: 100pw;
+    height: 100pw;
+    background-color: #18171C;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.backgroundMid{
+    width: 778px;
+    height: auto;
+    background-color: #F2EEE3;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuNav{
+    align-items: center;
+    display: inline-block;
+    padding: 16px 139px;   
+}
+
+.mainTitle{
+    text-align: center;
+    line-height: 0px;
+    
+    line-height: 0.80;
+}
+
+.flourish{
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    left: -9.50% ;
+    z-index: 1000;
+    top: 2.5%;
+}
+
+.hero{
+    margin: 25px 102px;
+
+}
+
+#copyHero{
+    margin-bottom: 25px;
+}
+
+.buttons{
+    display: flex;
+    gap: 41px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+#primary{
+    border-radius: 21px;
+    background: #7E3628;
+    color: #F2EEE3;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.08px;
+    word-wrap: break-word;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#secondary{
+    border-radius: 21px;
+    border: 1px solid #BF9649;
+    color: #BF9649;
+    font-feature-settings: 'liga' off;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.08px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#buttonsID{
+    justify-content: center;
+}
+
+.aboutImgCopy{
+    margin-top: 50px;
+    display: flex;
+    width: 584px;
+    height: 378px;
+    flex-shrink: 0;
+
+}
+.aboutMeImg{
+    right: 293px;
+    flex: 1;
+    position: inherit;
+}
+#aboutCopy{
+    right: -32px;
+    margin-top: 62px;
+    width: 286px;
+    height: 378px;
+    flex-shrink: 0;
+    flex: 1;
+    position: absolute;
+    }
+
+#arrow{
+    position: absolute;
+    left: 43%;
+}
+.techImg{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.toolsImg{
+    padding-left: 164px;
+}
+.carouselTitle{
+    color: #261E17;
+    font-family: Bagerich;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123%;
+}
+.carousel{
+    left: 99.74px;
+    width: 100%;
+    position: relative;
+}
+#carouselImg{
+    left: 149px;
+    position: absolute;
+    margin-top: 50px;
+}
+.carouselBody{
+    width: 100%;
+    display: block;
+    margin-top: 52px;
+}
+.carouselButtons{
+    display: flex;
+    justify-content: center;
+    margin: 18px;
+}
+#heroSection{
+    width: 100%;
+    height: 1080px;
+    z-index: 1001;
+}
+
+#aboutMeSection{
+    height: 1080px;
+}
+#skillSection{
+    height: 1080px;
+}
+.footer{
+    bottom: 0px;
+}
+.contactForm{
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    z-index: 10010;
+}
+label{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+input[type=text] {
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #535847;
+    background: #F2EEE3;
+    display: block;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.names{
+    display: flex;
+    width: 574px;
+    margin: auto;
+    gap: 22px;
+}
+.name1{
+    width: 574px;
+    justify-content: left;
+}
+.name2{
+    width: 574px;
+}
+#fname{
+    width: 275px;
+    margin: auto;
+}
+#lname{
+    width: 275px;
+}
+.emailPrompt{
+    width: 100%;
+    margin: auto;
+    left: 50px;
+    width: 574px;
+}
+#email{
+    width: 574px;
+}
+#aboutEmail{
+    width: 574px;
+}
+.emailAbout{
+    width: 574px;
+    margin: auto;
+}
+#primaryCentered{
+    border-radius: 21px;
+    background: #7E3628;
+    color: #F2EEE3;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.08px;
+    word-wrap: break-word;
+    padding: 8px 16px;
+    margin-top: 25px;
+}
+.centerButton{
+    display: flex;
+    justify-content: center;
+    
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.socialLinks{
+    display: flex;
+    justify-content: center; 
+    margin-top: 11px;
+    margin-bottom: 100px;   
+}
+#flourishBottom{
+    transform: rotate(0.5turn);
+    display: flex;
+    position: absolute;
+    vertical-align: bottom;
+    top: 4560px;
+    z-index: 1;
+    pointer-events: none;
+}
+#contactCopy{
+    display: flex; 
+    justify-content: center;
+}
+.aboutmeFlourish{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: -55px;
+    width: 100%;
+}
+
+#skill2copy{
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+.radiocontainer{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 20px;
+
+}
+
+#titleChanger{
+    color: #BF9649;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123%;
+    font-family: Bagerich;
+    text-align: center;
+}
